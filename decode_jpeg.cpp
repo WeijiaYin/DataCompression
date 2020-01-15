@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "decode_jpeg.h"
 #include "math.h"
 #include "malloc.h"
@@ -35,7 +36,7 @@ double a[8][8] = { {100, 100, 100, 100, 100, 100, 100, 100},
 
 double** FDCT(double **inputdata)
 {
-
+	return 0;
 }
 
 void multiple(double **dct, double **a, double **dct_transpose)
